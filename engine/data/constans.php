@@ -4,15 +4,15 @@
  */
 
 // Database connection data
-define("DB_USERNAME", ""); // Database username
-define("DB_PASSWORD", ""); // Database password
+define("DB_USERNAME", "cylosi1q"); // Database username
+define("DB_PASSWORD", "Ynusubamedaj"); // Database password
 define("DB_HOST", "localhost"); // Database host
-define("DB_NAME", ""); // Database db name
-define("DB_PREFIX", ""); // Database table prefix
+define("DB_NAME", "cylosi1q_ExamenSoftware"); // Database db name
+define("DB_PREFIX", "examens_"); // Database table prefix
 
 // Global data
-define("GLOBAL_URL", ""); // Url, without https:// and / on the end
-define("GLOBAL_PATH", "/ExamenSoftware/public_html/ExamenSoftware/"); // Path of the files, empty is root
+define("GLOBAL_URL", "cylosix.nl"); // Url, without https:// and with maps and / on the end
+define("GLOBAL_PATH", "/ExamenSoftware/"); // Path of the files, empty is root
 define("GLOBAL_SEO", "false"); // Seo true/false
 
 
