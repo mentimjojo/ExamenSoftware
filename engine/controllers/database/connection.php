@@ -17,6 +17,5 @@ class Connection {
             die("There is no database connection or some other error happend: " . $e->errorInfo);
         }
     }
-
 }
 ?>

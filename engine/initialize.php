@@ -4,7 +4,7 @@
  */
 
 // Get constant data
-require_once("data/constans.php");
+require_once("data/constants.php");
 
 // Load all the classes
 function LoadControllers($class){
@@ -25,5 +25,5 @@ $Connection = new Connection();
 $conn = $Connection->connectDB();
 
 // Register all classes
-$Theme = new Loadtheme();
+$Theme = new Themeload();
 ?>

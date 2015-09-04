@@ -12,7 +12,8 @@ define("DB_PREFIX", "examens_"); // Database table prefix
 
 // Global data
 define("GLOBAL_URL", "cylosix.nl"); // Url, without https:// and with maps and / on the end
-define("GLOBAL_PATH", "/ExamenSoftware/"); // Path of the files, empty is root
+define("GLOBAL_PATH", "ExamenSoftware"); // Path of the files, empty is root, without / before and not at the end
+define("GLOBAL_THEME", "theme"); // Map from the theme
 define("GLOBAL_SEO", "false"); // Seo true/false
 
 /* DON'T CHANGE THINGS BELOW UNLESS YOU KNOW WHAT YOU ARE DOING */
