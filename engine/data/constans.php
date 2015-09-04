@@ -15,5 +15,9 @@ define("GLOBAL_URL", "cylosix.nl"); // Url, without https:// and with maps and /
 define("GLOBAL_PATH", "/ExamenSoftware/"); // Path of the files, empty is root
 define("GLOBAL_SEO", "false"); // Seo true/false
 
+/* DON'T CHANGE THINGS BELOW UNLESS YOU KNOW WHAT YOU ARE DOING */
+
+// Table defines
+define("TBL_", DB_PREFIX . "");
 
 ?>

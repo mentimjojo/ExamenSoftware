@@ -21,6 +21,6 @@ spl_autoload_register(LoadControllers);
 // Register connection class
 $Connection = new Connection();
 
-//  Make database connection
+// Make database connection
 $conn = $Connection->connectDB();
 ?>
