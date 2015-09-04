@@ -23,4 +23,7 @@ $Connection = new Connection();
 
 // Make database connection
 $conn = $Connection->connectDB();
+
+// Register all classes
+$Theme = new Loadtheme();
 ?>
