@@ -8,7 +8,7 @@ class Connection {
     public $conn;
 
     // Function connection
-    function connectDB(){
+    public function connectDB(){
         try{
             // Try to connect to the dababase
             $this->conn = new PDO("mysql:host=".DB_HOST.";dbname=" . DB_NAME . ";", DB_USERNAME, DB_PASSWORD);
